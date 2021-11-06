@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #222222;
+  color: #f3f3f3;
+  font-size: 10px;
+}
+
+.selector {
+  background-color: #222222;
+  color: #f3f3f3;
+  border: 0px;
+  outline: 0px;
+}
+
+.nav_bar {
+  background-color: #f0a83e;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.banner {
+  background-image: url("../img/bowl.png");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+  color: #3c2313;
+}
+
+.title_banner {
+  font-size: 30px;
+}
+
+section div .text_banner {
+  font-size: 16px;
+}
+
+.btn_banner {
+  background-color: #f0a83e;
+  color: #ffffff;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
+
+.big_paw {
+  height: 70px;
+}
+
+.products_title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #3c2313;
+}
+
+.products_navbar {
+  color: #666666;
+  font-size: 15px;
+}
+
+.product_container {
+  color: #3c2313;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.product_price {
+  color: #f0a83e;
+}
+
+.title_contact_us {
+  font-weight: 700;
+  font-size: 25px;
+  color: #3c2313;
+}
+
+.contact_us_input {
+  background-color: #3c2313;
+  color: #ffffff;
+  font-size: 12px;
+  text-indent: 10px;
+  min-width: 340px;
+  min-height: 40px;
+  border-radius: 15px;
+}
+
+.contact_us_input::placeholder {
+  color: #ffffff;
+  font-size: 9px;
+}
+
+.btn_reset_form {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #8a8787;
+  min-width: 110px;
+  min-height: 34px;
+  border-radius: 15px;
+}
+
+.btn_send_form {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f0a83e;
+  min-width: 110px;
+  min-height: 34px;
+  border-radius: 15px;
+}
+
+.mail_icon {
+  height: 20px;
+}
+
+.suscription_container {
+  background-color: #f0a83e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.suscribe_input {
+  min-width: 270px;
+  min-height: 40px;
+  font-size: 12px;
+  border-radius: 15px;
+  text-indent: 10px;
+}
+
+.suscribe_input::placeholder {
+  font-size: 9px;
+}
+
+.btn_suscribe {
+  min-height: 40px;
+  min-width: 70px;
+  font-size: 9px;
+  color: #ffffff;
+  background-color: #3c2313;
+  border-radius: 15px;
+}
+
+.suscription_banner {
+  background-color: #3c2313;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.img_suscription_banner {
+  height: 65px;
+}
+
+.complement_text_suscription {
+  color: #8a8787;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #222222;
+  color: #f3f3f3;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img_redes {
+  padding-left: 30px;
+  color: #ffffff;
+}
