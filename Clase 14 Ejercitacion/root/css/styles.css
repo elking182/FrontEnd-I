@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.header_descuentos {
+  background-color: #d1891c;
+  padding-left: 3vw;
+  width: 100%;
+}
+
+.header_heroes {
+  background-color: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  padding-left: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_item {
+  width: 336px;
+  margin-top: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.fondo {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.heart {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 30px;
+}
+
+.heroe {
+  border-radius: 50%;
+  position: absolute;
+  left: 108px;
+  top: 150px;
+  width: 120px;
+}
+
+.cont_items_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_card {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 80px;
+  line-height: 16px;
+}
+
+.text_card {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  text-align: left;
+  margin-block-start: 0px;
+}
+
+.btn_ver_mas {
+  align-content: center;
+  text-align: center;
+  background-color: #00669f;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+footer {
+  background-color: #00669f;
+  color: #f3f3f3;
+  width: 100%;
+  font-size: 12px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.img_footer {
+  height: 20px;
+  margin-left: 5vw;
+}
+
+@media (min-width: 481px) {
+  .cards {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
